@@ -1,0 +1,92 @@
+.navbar {
+    background-color: #003366;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.navbar .logo img {
+    max-width: 100px;
+}
+
+.auth a {
+    background-color: #fff;
+    color: #003366;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.auth a:hover {
+    background-color: #003366;
+    color: #fff;
+}
+
+
+.book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+}
+.title{
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Hiển thị tối đa 1 dòng */
+    -webkit-box-orient: vertical;
+}
+
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Hiển thị tối đa 2 dòng */
+    -webkit-box-orient: vertical;
+}
+
+.books {
+    text-align: center;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
